@@ -7,7 +7,7 @@ from langdetect.lang_detect_exception import LangDetectException
 import pytesseract
 
 # If Tesseract is not in your system PATH, specify its location
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Adjust the path if necessary
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Atharv\AppData\Local\Programs\Tesseract-OCRtesseract.exe'  # Adjust the path if necessary
 
 
 # Load Pretrained Model for OCR from Huggingface
